@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Button</title>
+    <link href="href://fonts.googleapis.com/
+     css2?family=Poppins:wght@500&display=swap"
+     rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> 1.RADIO BUTTON  </h1>
+        <div class="container">
+          <p>Quality Status</p>
+          <br>
+          <input type="radio"  name="Quality" id="good">
+         <label for="good">Good</label><br>
+         <input type="radio"  name="Quality" id="bad">
+         <label for="bad">Bad</label><br>
+         <input type="radio" name="Quality" id="moderate">
+         <label for="moderate">Moderate</label>
+         </div>
+    <h1>2.CHECK BOX BUTTON</h1>
+    <div class ="pages"></div>
+    <div class="hero">
+        <div class="container1">
+            <h2>Choose your favorites</h2><br>
+            <div class="row">
+                <p> Oppo</p>
+                <label>
+                    <input type="checkbox" >
+                    <span></span>
+                </label>
+            </div>
+            <div class="row">
+                <p>Apple</p>
+                <label>
+                    <input type="checkbox">
+                    <span></span>
+                </label>
+            </div>
+            <div class="row">
+                <p>vivo</p>
+                <label>
+                    <input type="checkbox" >
+                    <span></span>
+                </label>
+            </div>
+        </div>
+            
+
+        </div>
+        <h1>DROP-DOWN BUTTON</h1>
+        <div class="menu-bar">
+            <h1 class="logo">Visual<span>Code.</span></h1>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Pages <i class="fas fa-caret-down"></i></a>
+                <div class="dropdown-menu">
+                    <ul>
+                      <li><a href="#">Pricing</a></li>
+                      <li><a href="#">Portfolio</a></li>
+                      <li>
+                        <a href="#">Team </a>
+                      </li>
+                      <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">Blog</a></li>
+          </li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+    </div>
+
+    <div class="hero">
+      &nbsp;
+    </div>
+    <h1>MARQUEE TEXT</h1>
+    <div class="scrolling">
+        <marquee behavior="" direction="">
+            <h3>Welcome  webpotters ! Here is the task of today and I have done radio button,checkbox,marquee,dropdown</h3>
+        </marquee>
+    </div>
+    <div>
+        <button id="scroll-to-top">Back to Top</button>
+    </div>
+    <script>
+        const scrollToTopButton = document.getElementById('scroll-to-top');
+
+scrollToTopButton.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
+    </script>
+  
+</body>
+</html>
